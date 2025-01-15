@@ -1,0 +1,28 @@
+.primary_btn{
+    padding: 18px 10px;
+    background: black;
+    color: #fff;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.white_btn{
+    border: 1px solid black;
+    padding: 18px 10px;
+    color: #000;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
