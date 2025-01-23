@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.stop-watch{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(218, 255, 255);
+}
+
+.watch{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff098;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 0.2px solid #9f9f9f;
+}
+
+.watch h1{
+  font-size: 25px;
+}
+
+.watch .watch-calc{
+  border-bottom: 0.5px solid rgb(141, 141, 141);
+  color: rgb(159, 2, 2);
+}
+
+.watch .btn{
+  display: flex;
+  gap: 20px;
+}
+
+.btn .stop-start{
+  padding: 4px;
+  background-color: #ffdf78;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.btn .stop-start:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  background-color: transparent;
+}
+.btn .reset{
+  padding: 4px;
+  background-color: #ffdf78;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.btn .reset:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  background-color: transparent;
+}
