@@ -1,0 +1,75 @@
+.form{
+    background: transparent;
+    /* border: 0.5px solid black; */
+    padding: 20px;
+    box-shadow: 2px 2px 20px rgb(51, 51, 51);
+    border-radius: 20px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #575769;
+    background-image: linear-gradient(160deg, #7b7b8c 0%, #3c5553 100%);
+}
+
+.header{
+    font-size: 0.7rem;
+    color: rgb(199, 199, 199);
+    margin-top: 8px;
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+
+.footer{
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer button{
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    border: 1px solid whitesmoke;
+    width: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footer button:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.progressBar {
+    width: 100%;
+    height: 8px; 
+    background-color: #4b4a4a9c; 
+    border-radius: 4px;
+    overflow: hidden; 
+    margin-bottom: 10px;
+}
+
+.progressBar div {
+    height: 100%;
+    background-color: #c7c7c7; 
+    border-radius: 4px;
+    transition: width 0.7s ease-in-out; 
+}
+

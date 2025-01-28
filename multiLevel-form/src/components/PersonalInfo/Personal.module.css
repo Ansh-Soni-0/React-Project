@@ -1,0 +1,22 @@
+.personalInfoContainer{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalInfoContainer input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(194, 194, 194);
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.personalInfoContainer input::placeholder{
+    color: rgb(200, 200, 200);
+    font-size: 0.7rem;
+}

@@ -1,0 +1,22 @@
+.OtherInfoContainer{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.OtherInfoContainer input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(194, 194, 194);
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.OtherInfoContainer input::placeholder{
+    color: rgb(200, 200, 200);
+    font-size: 0.7rem;
+}
