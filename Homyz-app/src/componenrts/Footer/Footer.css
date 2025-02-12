@@ -1,0 +1,28 @@
+.f-container{
+    justify-content: space-between;
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f-menu{
+    font-size: 1.1rem;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.f-menu a:hover{
+    color: gray;
+}
+
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        justify-content: center !important;
+        text-align: center;
+    }
+}
