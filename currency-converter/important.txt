@@ -1,0 +1,20 @@
+flag website used - 
+
+https://flagsapi.com/
+
+how to use - 
+
+<img src="https://flagsapi.com/(COUNTRY_CODE)/flat/64.png">
+
+and change based on COUNTRY_CODE
+
+
+api used fron -
+
+https://www.exchangerate-api.com/
+
+how to use - 
+
+gtting from user deshboard on website after login
+
+const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${fromCurrency}/${toCurrency}`
